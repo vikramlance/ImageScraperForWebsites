@@ -8,3 +8,4 @@
   FOR %%F IN (.\myImageFolder\*.jpg) DO ( IF %%~zF LSS 20000  DEL %%F )
   
   REM pause
+  REM remove REM from above line if you want to see the out put
