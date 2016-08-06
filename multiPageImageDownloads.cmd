@@ -10,6 +10,7 @@ REM image-scraper -s <folder> <URL> --formats jpg
 
 REM <folder> = folder in which images needs to be saved. This will be creaed in the same directory where your script is located.
 
+REM we need to use following command to download all images from single page
 REM image-scraper -s myImageFolder1 https://interfacelift.com/wallpaper/downloads/date/any/index1.html --formats jpg
 
 Setlocal EnableDelayedExpansion
